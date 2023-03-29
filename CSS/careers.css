@@ -1,0 +1,148 @@
+html {
+    scroll-padding-top: 100px;
+}
+.opportuninties {
+    background: url(../Images/1670685747524.png) no-repeat;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 132px 0;
+    position: relative;
+}
+.opportuninties .image-wrapper {
+    width: 70%;
+}
+.opportuninties .image-wrapper img {
+    width: 70%;
+}
+.opportuninties .move-down {
+    position: absolute;
+    bottom: 0;
+}
+.opportuninties .move-down a {
+    font-size: 200%;
+    color: hsl(100, 100%, 100%);
+}
+.opportuninties .move-down a i {
+    transition: transform 300ms ease;
+}
+.opportuninties .move-down a:hover i {
+    transform: translate(0, 4px);
+}
+.position {
+    background: url(../Images/Background_Template9A.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 2.89% 0;
+}
+.position .left {
+    width: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.position .left .desc {
+    border-bottom: 1px solid;
+    letter-spacing: 1.5px;
+    line-height: 4ch;
+    padding: 30px 0;
+}
+.position .left .links {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+}
+.position .left .link {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    padding: 10% 0;
+}
+.position .left .link h2 {
+    padding: 26px 0;
+}
+.button {
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 13px 26px;
+    transition: background-color 300ms ease, color 300ms ease;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: white;
+    color: rgb(4, 6, 15);
+}
+.position .right {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.position .right img {
+    width: 83.5%;
+}
+.though {
+    background: url(../Images/CareerOpportunitiesbanner2b.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 9.9% 0;
+}
+.though .left {
+    width: 45%;
+}
+.though .left img {
+    width: 99%;
+}
+.though .right {
+    width: 45%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.though .right img {
+    width: 75%;
+}
+.though .right p {
+    width: 75%;
+    line-height: 4ch;
+    padding: 20px 0;
+}
+@media screen and (max-width: 900px) {
+    .position {
+        flex-direction: column;
+        align-items: center;
+    }
+    .position .left {
+        width: 90%;
+    }
+    .position .left .links {
+        grid-template-columns: 100%;
+    }
+    .position .left .link:nth-child(2) {
+        grid-area: 3;
+    }
+    .position .right {
+        justify-content: center;
+        width: 100%;
+    }
+    .though {
+        flex-direction: column;
+        align-items: center;
+        background-position: center right -450px;
+    }
+    .though .right {
+        width: 100%;
+    }
+}

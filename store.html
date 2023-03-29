@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="Icon/steelwoolicon.png" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        />
+        <link rel="stylesheet" href="CSS/store.css" />
+        <title>Steel Wool Studios Store - Steel Wool Studios Store</title>
+    </head>
+    <body>
+        <div class="cart">
+            <div class="head">
+                <h2>Items In Cart</h2>
+                <div class="exit">
+                    <div class="bars">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="stats">
+                <span>Item</span>
+                <span>Title</span>
+                <span>Quantity</span><span>Price</span>
+            </div>
+            <div class="in-cart"></div>
+            <div class="payment">
+                <div>
+                    <h3>Total:<span class="total">$0</span></h3>
+                </div>
+                <div>
+                    <span class="purchase">Purchase</span>
+                </div>
+            </div>
+        </div>
+        <header>
+            <nav class="main-menu">
+                <div class="icon">
+                    <a href="store.html">
+                        <img src="Images/SWG_NewLogo_Black.png" alt=""
+                    /></a>
+                </div>
+                <ul class="link-list">
+                    <li class="bars-wrap">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </li>
+                    <li><a href="store.html">shop home</a></li>
+                    <li class="has-dropdown h-no-1">
+                        <span
+                            >apparel<i class="fa-solid fa-angle-down"></i
+                        ></span>
+                        <ul class="dropdown no-1">
+                            <li class="has-dropdown h-no-2">
+                                <a href=""
+                                    >men<i class="fa-solid fa-angle-down"></i
+                                ></a>
+                                <ul class="dropdown no-2">
+                                    <li class="has-dropdown h-no-3">
+                                        <a href=""
+                                            >shirt<i
+                                                class="fa-solid fa-angle-down"
+                                            ></i
+                                        ></a>
+                                        <ul class="dropdown no-3">
+                                            <li>
+                                                <a href="">T-Shirts</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="">sweatshirts and fleeces</a>
+                                    </li>
+                                    <li><a href="">men's all</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown h-no-2">
+                                <a href=""
+                                    >women<i class="fa-solid fa-angle-down"></i
+                                ></a>
+                                <ul class="dropdown no-2">
+                                    <li class="has-dropdown h-no-3">
+                                        <a href=""
+                                            >shirt<i
+                                                class="fa-solid fa-angle-down"
+                                            ></i
+                                        ></a>
+                                        <ul class="dropdown no-3">
+                                            <li>
+                                                <a href="">T-Shirts</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="">sweatshirts and fleeces</a>
+                                    </li>
+                                    <li><a href="">women's all</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown h-no-2">
+                                <a href=""
+                                    >unisex<i class="fa-solid fa-angle-down"></i
+                                ></a>
+                                <ul class="dropdown no-2">
+                                    <li><a href="">unisex all</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown h-no-2">
+                                <a href=""
+                                    >kids<i class="fa-solid fa-angle-down"></i
+                                ></a>
+                                <ul class="dropdown no-2">
+                                    <li>
+                                        <a href="">hoodies and sweatshirts</a>
+                                    </li>
+                                    <li class="has-dropdown h-no-3">
+                                        <a href=""
+                                            >shirt<i
+                                                class="fa-solid fa-angle-down"
+                                            ></i
+                                        ></a>
+                                        <ul class="dropdown no-3">
+                                            <li>
+                                                <a href="">T-Shirts</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">kid's all</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">all</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="toggle-cart"
+                            ><span class="amount" style="padding: 0">0</span
+                            ><i class="fa-solid fa-cart-shopping"></i
+                        ></span>
+                    </li>
+                    <li class="search">
+                        <span
+                            ><i class="fa-solid fa-magnifying-glass"></i
+                        ></span>
+                        <div class="search-dropdown">
+                            <div class="search-cover">
+                                <input
+                                    type="text"
+                                    name=""
+                                    id=""
+                                    placeholder="Search here..."
+                                /><i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="hidden-menu">
+                <ul class="link-list">
+                    <li><a href="store.html">shop home</a></li>
+                    <li>
+                        <span
+                            >apparel<i class="fa-solid fa-angle-down"></i
+                        ></span>
+                    </li>
+                </ul>
+                <ul class="dropdown-list">
+                    <li>
+                        <a href="">men<i class="fa-solid fa-angle-down"></i></a>
+                        <ul>
+                            <li>
+                                <a href=""
+                                    >shirt<i class="fa-solid fa-angle-down"></i
+                                ></a>
+                                <ul>
+                                    <li>
+                                        <a href="">T-Shirts</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">sweatshirts and fleeces</a>
+                            </li>
+                            <li><a href="">men's all</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href=""
+                            >women<i class="fa-solid fa-angle-down"></i
+                        ></a>
+                        <ul class="dropdown no-2">
+                            <li>
+                                <a href=""
+                                    >shirt<i class="fa-solid fa-angle-down"></i
+                                ></a>
+                                <ul>
+                                    <li>
+                                        <a href="">T-Shirts</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">sweatshirts and fleeces</a>
+                            </li>
+                            <li><a href="">women's all</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href=""
+                            >unisex<i class="fa-solid fa-angle-down"></i
+                        ></a>
+                        <ul>
+                            <li><a href="">unisex all</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href=""
+                            >kids<i class="fa-solid fa-angle-down"></i
+                        ></a>
+                        <ul>
+                            <li>
+                                <a href="">hoodies and sweatshirts</a>
+                            </li>
+                            <li>
+                                <a href=""
+                                    >shirt<i class="fa-solid fa-angle-down"></i
+                                ></a>
+                                <ul>
+                                    <li>
+                                        <a href="">T-Shirts</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="">kid's all</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">all</a></li>
+                </ul>
+            </nav>
+            <img
+                class="banner"
+                src="Images/p1gighnmgoc3asha60is3k19m4g.png"
+                alt=""
+            />
+        </header>
+        <main>
+            <div class="main-wrap">
+                <section class="heading">
+                    <div class="name"><h1>Steel Wool Studios Store</h1></div>
+                    <div class="sort">
+                        <span>Sort By</span>
+                        <select name="sort" id="sort">
+                            <option value="default" selected>
+                                Newest (Default)
+                            </option>
+                            <option value="A-Z">Name (A-Z)</option>
+                            <option value="Z-A">Name (Z-A)</option>
+                        </select>
+                    </div>
+                </section>
+                <span class="showing"
+                    >Showing <strong>1-47</strong> of
+                    <strong>47</strong> items.</span
+                >
+                <section class="items">
+                    <div class="card">
+                        <img src="Images/Store/itemNo1.png" alt="" />
+                        <div class="color-picker">
+                            <abbr title="terrain grey"
+                                ><div class="color"></div
+                            ></abbr>
+                            <abbr title="night sky navy"
+                                ><div class="color"></div
+                            ></abbr>
+                            <abbr title="beacon blue"
+                                ><div class="color active"></div
+                            ></abbr>
+                        </div>
+                        <a href="" class="title">
+                            Five Nights at Freddy's - Superstar Daycare
+                            T-Shirt</a
+                        >
+                        <span class="price">$25.00</span>
+                        <h4 class="to-cart">ADD TO CART</h4>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Store/itemNo2.png" alt="" />
+                        <div class="color-picker">
+                            <abbr title="deep black"
+                                ><div class="color active"></div
+                            ></abbr>
+                            <abbr title="terrain grey"
+                                ><div class="color"></div
+                            ></abbr>
+                            <abbr title="night sky navy"
+                                ><div class="color"></div
+                            ></abbr>
+                        </div>
+                        <a href="" class="title">
+                            Five Nights at Freddy's - Daycare Attendant -
+                            Moondrop T-Shirt
+                        </a>
+                        <span class="price">$25.00</span>
+                        <h4 class="to-cart">ADD TO CART</h4>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Store/itemNo3.png" alt="" />
+                        <div class="color-picker">
+                            <abbr title="deep black"
+                                ><div class="color active"></div
+                            ></abbr>
+                            <abbr title="terrain grey"
+                                ><div class="color"></div
+                            ></abbr>
+                            <abbr title="night sky navy"
+                                ><div class="color"></div
+                            ></abbr>
+                        </div>
+                        <a href="" class="title">
+                            Five Nights at Freddy's - Daycare Attendant -
+                            Sundrop T-Shirt</a
+                        >
+                        <span class="price">$25.00</span>
+                        <h4 class="to-cart">ADD TO CART</h4>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Store/itemNo4.png" alt="" />
+                        <div class="color-picker"></div>
+                        <a href="" class="title">
+                            Five Nights at Freddy's - Birthday Anniversary 2022
+                            T-Shirt</a
+                        >
+                        <span class="price">$25.00</span>
+                        <h4 class="to-cart">ADD TO CART</h4>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Store/itemNo5.png" alt="" />
+                        <div class="color-picker"></div>
+                        <a href="" class="title">
+                            Five Nights at Freddy's - Birthday Anniversary 2022
+                            Hoodie</a
+                        >
+                        <span class="price">$45.00</span>
+                        <h4 class="to-cart">ADD TO CART</h4>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Store/itemNo6.png" alt="" />
+                        <div class="color-picker">
+                            <abbr title="deep black"
+                                ><div class="color active"></div
+                            ></abbr>
+                            <abbr title="terrain grey"
+                                ><div class="color"></div
+                            ></abbr>
+                            <abbr title="night sky navy"
+                                ><div class="color"></div
+                            ></abbr>
+                        </div>
+                        <a href="" class="title">
+                            Five Nights at Freddy's - Freddy in Space T-Shirt</a
+                        >
+                        <span class="price">$25.00</span>
+                        <h4 class="to-cart">ADD TO CART</h4>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Store/itemNo7.png" alt="" />
+                        <div class="color-picker">
+                            <abbr title="deep black"
+                                ><div class="color active"></div
+                            ></abbr>
+                            <abbr title="terrain grey"
+                                ><div class="color"></div
+                            ></abbr>
+                            <abbr title="night sky navy"
+                                ><div class="color"></div
+                            ></abbr>
+                        </div>
+                        <a href="" class="title">
+                            Five Nights at Freddy's - Roxy in Space T-Shirt</a
+                        >
+                        <span class="price">$25.00</span>
+                        <h4 class="to-cart">ADD TO CART</h4>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Store/itemNo8.png" alt="" />
+                        <div class="color-picker">
+                            <abbr title="deep black"
+                                ><div class="color active"></div
+                            ></abbr>
+                            <abbr title="terrain grey"
+                                ><div class="color"></div
+                            ></abbr>
+                            <abbr title="night sky navy"
+                                ><div class="color"></div
+                            ></abbr>
+                        </div>
+                        <a href="" class="title">
+                            Five Nights at Freddy's - Monty in Space T-Shirt</a
+                        >
+                        <span class="price">$25.00</span>
+                        <h4 class="to-cart">ADD TO CART</h4>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Store/itemNo9.png" alt="" />
+                        <div class="color-picker">
+                            <abbr title="deep black"
+                                ><div class="color active"></div
+                            ></abbr>
+                            <abbr title="terrain grey"
+                                ><div class="color"></div
+                            ></abbr>
+                            <abbr title="night sky navy"
+                                ><div class="color"></div
+                            ></abbr>
+                        </div>
+                        <a href="" class="title">
+                            Five Nights at Freddy's - Chica in Space T-Shirt</a
+                        >
+                        <span class="price">$25.00</span>
+                        <h4 class="to-cart">ADD TO CART</h4>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Store/itemNo10.png" alt="" />
+                        <div class="color-picker">
+                            <abbr title="night sky navy"
+                                ><div class="color active"></div
+                            ></abbr>
+                            <abbr title="deep black"
+                                ><div class="color"></div
+                            ></abbr>
+                            <abbr title="terrain grey"
+                                ><div class="color"></div
+                            ></abbr>
+                        </div>
+                        <a href="" class="title">
+                            Five Nights at Freddy's - Superstar Daycare
+                            Hoodie</a
+                        >
+                        <span class="price">$45.00</span>
+                        <h4 class="to-cart">ADD TO CART</h4>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Store/itemNo11.png" alt="" />
+                        <div class="color-picker">
+                            <abbr title="deep black"
+                                ><div class="color active"></div
+                            ></abbr>
+                            <abbr title="terrain grey"
+                                ><div class="color"></div
+                            ></abbr>
+                            <abbr title="night sky navy"
+                                ><div class="color"></div
+                            ></abbr>
+                        </div>
+                        <a href="" class="title">
+                            Five Nights at Freddy's - Monty's Gator Golf
+                            T-Shirt</a
+                        >
+                        <span class="price">$30.00</span>
+                        <h4 class="to-cart">ADD TO CART</h4>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Store/itemNo12.png" alt="" />
+                        <div class="color-picker">
+                            <abbr title="deep black"
+                                ><div class="color active"></div
+                            ></abbr>
+                            <abbr title="terrain grey"
+                                ><div class="color"></div
+                            ></abbr>
+                            <abbr title="night sky navy"
+                                ><div class="color"></div
+                            ></abbr>
+                        </div>
+                        <a href="" class="title">
+                            Five Nights at Freddy's - Roxy Raceway T-Shirt</a
+                        >
+                        <span class="price">$30.00</span>
+                        <h4 class="to-cart">ADD TO CART</h4>
+                    </div>
+                </section>
+                <section class="bottom">
+                    <span class="showing"
+                        >Showing <strong>1-47</strong> of
+                        <strong>47</strong> items.</span
+                    >
+                    <span class="pages">
+                        <span class="prev"><<</span>
+                        <span class="page active">1</span>
+                        <span class="page">2</span>
+                        <span class="page">3</span>
+                        <span class="page">4</span>
+                        <span class="next">>></span>
+                    </span>
+                </section>
+                <div class="item-per-page">
+                    <span>Items Per Page</span
+                    ><select name="item-number" id="">
+                        <option value="12" selected>12</option>
+                        <option value="24">24</option>
+                        <option value="48">48</option>
+                        <option value="72">72</option>
+                        <option value="96">96</option>
+                        <option value="144">144</option>
+                    </select>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <nav>
+                <div class="help">
+                    <h4>help</h4>
+                    <div><a href="">contact us</a></div>
+                    <div><a href="">term & conditions</a></div>
+                    <div><a href="">shipping policy</a></div>
+                    <div><a href="">return policy</a></div>
+                </div>
+                <div class="follow">
+                    <h4>follow us</h4>
+                    <div class="media">
+                        <div>
+                            <a href="https://www.facebook.com/SteelWoolStudios"
+                                ><i class="fa-brands fa-facebook"></i
+                            ></a>
+                        </div>
+                        <div>
+                            <a
+                                href="https://www.instagram.com/steel_wool_studios"
+                                ><i class="fa-brands fa-instagram"></i
+                            ></a>
+                        </div>
+                        <div>
+                            <a href="https://twitter.com/SteelWoolStudio"
+                                ><i class="fa-brands fa-twitter"></i
+                            ></a>
+                        </div>
+                        <div>
+                            <a
+                                href="https://www.youtube.com/channel/UCpOXWy4Erc4UNoxI9xW-CXw"
+                                ><i class="fa-brands fa-youtube"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="payment">
+                        <img src="Images/paylogos.png" alt="" />
+                    </div>
+                    <div class="cardlogo">
+                        <img src="Images/cardlogo.png" alt="" />
+                    </div>
+                </div>
+            </nav>
+            <div class="powered"><span>powered by merchmake 2023</span></div>
+        </footer>
+        <div class="to-top">
+            <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+        <script src="JS/store-dropdown.js"></script>
+        <script src="JS/store-feature.js"></script>
+    </body>
+</html>

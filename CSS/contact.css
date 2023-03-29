@@ -1,0 +1,200 @@
+html {
+    scroll-padding-top: 150px;
+}
+main {
+    background-color: #cdd4d6;
+}
+.anh1 {
+    background-image: url(../Images/ContactUs_Banner.png);
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.anh1 {
+    text-align: center;
+    justify-content: center;
+    padding: 10% 0;
+}
+.move-down {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.move-down a {
+    font-size: 200%;
+    color: hsl(100, 100%, 100%);
+}
+.move-down a i {
+    transition: transform 300ms ease;
+}
+.move-down a:hover i {
+    transform: translate(0, 4px);
+}
+form {
+    background-color: #cdd4d6;
+    display: flex;
+    padding: 10% 0;
+}
+.form_dien {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.h1email {
+    width: 60%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    border-bottom: 2px solid rgb(105, 103, 103);
+}
+#hovaten {
+    width: 150%;
+    height: 40px;
+    border: 1px solid #cdd4d6;
+}
+.hovaten {
+    display: flex;
+    width: 60%;
+}
+
+#email {
+    width: 60%;
+    height: 40px;
+    border: 1px solid #cdd4d6;
+}
+#subject {
+    width: 60%;
+    height: 40px;
+    border: 1px solid #cdd4d6;
+}
+#message {
+    width: 60%;
+    height: 40px;
+    border: 1px solid #cdd4d6;
+}
+#submit {
+    width: 155px;
+    height: 40px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 25px;
+    font-size: 120%;
+    color: white;
+}
+.chu_checkbox {
+    padding-left: 5%;
+    width: 70%;
+}
+.h1game {
+    padding-bottom: 5%;
+}
+.chugame {
+    color: #8e9091;
+    padding: 2.5% 0;
+    text-align: center;
+}
+.gamesupport {
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.gamesupport p {
+    width: 60%;
+    font-size: 120%;
+}
+.gamesupport .com a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
+    transition: background-color 300ms ease, color 300ms ease;
+}
+.com {
+    list-style: none;
+}
+.gamesupport .com a:hover {
+    background-color: black;
+    color: white;
+}
+.chuicon {
+    text-align: center;
+    padding: 5% 0;
+}
+.icon {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.icon li {
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+}
+.andi {
+    display: none;
+}
+.icon li {
+    width: 48px;
+}
+.icon a {
+    font-size: 24px;
+    transition: opacity 300ms ease;
+}
+.icon:hover a {
+    opacity: 0.5;
+}
+.icon a:hover {
+    opacity: 1;
+}
+.facebook i {
+    color: hsl(240, 100%, 50%);
+}
+.twitter i {
+    color: hsl(180, 100%, 40%);
+}
+.instagram i {
+    color: hsl(348, 83%, 47%);
+}
+.youtube i {
+    color: hsl(0, 100%, 50%);
+}
+.linkedin i {
+    color: hsl(240, 100%, 60%);
+}
+@media (max-width: 900px) {
+    .hien {
+        display: none;
+    }
+    .andi {
+        display: block;
+    }
+    form {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .form_dien {
+        width: 100%;
+    }
+    .gamesupport {
+        width: 100%;
+    }
+    .anh1 {
+        display: none;
+    }
+    .anh2 {
+        background-image: url(../Images/ContactUs_Banner.png);
+        background-size: cover;
+        background-position: center;
+        padding: 187.5px 0;
+        position: relative;
+    }
+    .anh2 img {
+        width: 100%;
+    }
+}

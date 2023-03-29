@@ -1,0 +1,124 @@
+h1 {
+    font-size: 110px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.our-games {
+    display: flex;
+    padding: 225px 0;
+    justify-content: center;
+    background-image: url(../Images/AllGames_Banner4.png);
+    background-size: cover;
+    position: relative;
+}
+.our-games .move-down {
+    position: absolute;
+    bottom: 0;
+}
+.our-games .move-down a {
+    font-size: 200%;
+    color: hsl(100, 100%, 100%);
+}
+.our-games .move-down a i {
+    transition: transform 300ms ease;
+}
+.our-games .move-down a:hover i {
+    transform: translate(0, 4px);
+}
+.make-play {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../Images/Background_Template9A.png);
+    background-size: cover;
+    padding: 11.12% 0;
+    gap: 100px;
+}
+.make-play .upper {
+    display: flex;
+    justify-content: center;
+}
+.make-play .upper .heading,
+.make-play .upper .description {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.make-play .upper h1 {
+    width: 450px;
+}
+.make-play .upper .description {
+    flex-direction: column;
+}
+.make-play .upper .description hr {
+    width: 45%;
+}
+.make-play .upper p {
+    width: 55%;
+    color: #ffffffcc;
+    line-height: 30px;
+    padding: 15px 0;
+}
+.make-play .games-collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.make-play .games-collection a {
+    width: 270px;
+    height: 170px;
+}
+.make-play .games-collection img {
+    width: 100%;
+    height: 100%;
+}
+.partners {
+    background-image: url(../Images/Partners.JPG.png);
+    background-size: cover;
+    padding: 5.2% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.partners h2 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.partners .partnership {
+    padding: 20px 0;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 2.5%;
+}
+.partners .partnership img {
+    width: 100%;
+}
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 32px;
+    }
+    .our-games {
+        background-position: center;
+    }
+    .make-play .upper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .make-play .upper .heading,
+    .make-play .upper .description {
+        width: 100%;
+    }
+    .make-play .upper h1 {
+        width: 225px;
+    }
+    .make-play .upper p {
+        width: 90%;
+    }
+    .partners .partnership {
+        grid-template-columns: 50% 50%;
+    }
+}
